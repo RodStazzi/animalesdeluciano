@@ -2,33 +2,16 @@ import Animales from "./Consulta.js";
 import { Leon, Lobo, Oso, Serpiente, Aguila } from "./clases/Especie.js"
 
 let arrAnimales = [];
-
 // document.getElementById("animal").addEventListener("change", async (e) => {
-//   const animalSelected = e.target.value;
-//   const { animales } = await Animales.getData();
-//   const especieImagen = animales.find((a) => a.name == animalSelected).imagen;
-//   document.getElementById("preview").innerHTML = `<img class="h-100 w-75 img-fluid" src="assets/imgs/${especieImagen}" style='object-fit: cover;'>`;
-// });
-
-document.getElementById("animal").addEventListener("change", async (e) => {
-  const { animales } = await Animales.getData();
-  const especie = e.target.value;
+  window.llamarAnimal = (async (a) => {
+    console.log(a)
+const { animales } = await Animales.getData();
+  // const especie = a.target.value;
+  const especie = a;
   const edad = 45;
   const comentarios = "un bonito animal";
-  // console.log(edad)
-  // console.log(comentarios)
   const imagen = animales.find((e) => e.name == especie).imagen
-  // if (imagen) {
-  //   let imgHtml = `<img class="h-100 w-75 img-fluid" src="assets/imgs/${imagen}" style='object-fit: cover;'>`
-  //   document.getElementById("preview").innerHTML = imgHtml;
-  //   console.log(imagen)
-  // }
-
   const sonido = animales.find((e) => e.name == especie).sonido
-  // if (sonido) {
-  //   console.log(sonido)
-  // }
-
 
   let nuevoAnimal;
   console.log(especie);
