@@ -1,0 +1,5 @@
+1) Agregar la foto del animal en imgs.
+2) Agregar el sonido del animal en sounds.
+3) Agregar las propiedades en animales.json
+4) Agregar nuevo objeto en Especie.js junto con su exportacion
+5) Agregar constructor en index.js junto con su importacion

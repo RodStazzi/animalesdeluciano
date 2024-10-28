@@ -1,0 +1,53 @@
+{
+  "animales": [
+    {
+      "name": "Caballo",
+      "imagen": "Caballo.jpg",
+      "sonido": "Caballosonido.mp3",
+      "edad": 30,
+      "comentarioEdad": "El caballo puede vivir hasta 30 años en condiciones adecuadas, aunque algunos alcanzan los 35 con buen cuidado.",
+      "comentario": "Los caballos son animales fuertes y nobles, utilizados históricamente para transporte y trabajo. Tienen una gran conexión con los humanos y destacan por su velocidad y resistencia."
+    },
+    {
+      "name": "Leon",
+      "imagen": "lion.gif",
+      "sonido": "Leonsonido.mp3",
+      "edad": 15,
+      "comentarioEdad": "Este león está en la etapa adulta, fuerte y dominante en su manada.",
+      "comentario": "Los leones son conocidos como los reyes de la selva por su liderazgo y fuerza."
+    },
+    {
+      "name": "Lobo",
+      "imagen": "Lobo.jpg",
+      "sonido": "Lobosonido.mp3",
+      "edad": 13,
+      "comentarioEdad": "Este lobo está en su mejor momento de energía y agilidad.",
+      "comentario": "Los lobos suelen vivir y cazar en manadas, mostrando un alto sentido de cooperación."
+    },
+    {
+      "name": "Oso",
+      "imagen": "Oso.jpg",
+      "sonido": "Ososonido.mp3",
+      "edad": 25,
+      "comentarioEdad": "Este oso es bastante maduro, experimentado en la búsqueda de alimento.",
+      "comentario": "Los osos son animales solitarios y muy adaptables a distintos ambientes naturales."
+    },
+    {
+      "name": "Serpiente",
+      "imagen": "Serpiente.jpg",
+      "sonido": "Serpientesonido.mp3",
+      "edad": 20,
+      "comentarioEdad": "Joven y ágil, esta serpiente tiene un instinto cazador agudo.",
+      "comentario": "Las serpientes son reptiles sigilosos, conocidas por su habilidad de camuflaje y caza."
+    },
+    {
+      "name": "Aguila",
+      "imagen": "Aguila.png",
+      "sonido": "Aguilasonido.mp3",
+      "edad": 30,
+      "comentarioEdad": "Este águila es adulta y tiene una gran destreza para volar largas distancias.",
+      "comentario": "Las águilas simbolizan la libertad y la visión, destacándose por su gran vista y velocidad."
+    }
+  ]
+}
+

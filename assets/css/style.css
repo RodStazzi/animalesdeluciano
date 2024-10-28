@@ -1,0 +1,72 @@
+
+#Animales {
+  min-height: 200px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../imgs/luciano-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  gap: 20px;
+}
+
+#Animales div div {
+  transition: all 200ms;
+}
+
+#Animales div > div:hover {
+  box-shadow: 0px 1px 5px 1px;
+}
+
+/* Estilo para las cards individuales dentro de #Animales */
+#Animales .card {
+  width: 200px !important;
+  height: 290px !important;
+  margin: 10px;
+  flex-shrink: 0;
+}
+
+/* Contenedor principal */
+#tabla {
+  width: 100%;
+  height: auto !important;
+  min-height: auto;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+#tabla .card-body {
+  height: auto;
+}
+
+/* Estilos para el carrusel */
+.carousel-image {
+  width: 100px !important;
+  height: 100px !important;
+  object-fit: contain;
+}
+
+.modal-body img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+  #tabla {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  #Animales {
+    padding: 10px !important;
+  }
+  
+  #Animales .card {
+    width: calc(50% - 20px) !important;
+    margin: 10px;
+  }
+}
+
+
+
+
