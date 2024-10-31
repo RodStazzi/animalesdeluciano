@@ -1,6 +1,14 @@
 {
   "animales": [
     {
+  "name": "Foca",
+  "imagen": "Foca.gif",
+  "sonido": "Focasonido.mp3",
+  "edad": 25,
+  "comentarioEdad": "La foca puede vivir alrededor de 25 años en su hábitat natural, aunque algunas pueden alcanzar los 30 años en condiciones ideales.",
+  "comentario": "Las focas son animales marinos adaptados a ambientes fríos. Son excelentes nadadoras y cazadoras, y pasan gran parte de su vida en el agua. Se caracterizan por su cuerpo aerodinámico y su habilidad para sumergirse a grandes profundidades."
+    },
+    {
       "name": "Caballo",
       "imagen": "Caballo.jpg",
       "sonido": "Caballosonido.mp3",
