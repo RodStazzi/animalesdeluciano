@@ -10,7 +10,7 @@
     },
     {
       "name": "Caballo",
-      "imagen": "Caballo.jpg",
+      "imagen": "Caballo.gif",
       "sonido": "Caballosonido.mp3",
       "edad": 30,
       "comentarioEdad": "El caballo puede vivir hasta 30 años en condiciones adecuadas, aunque algunos alcanzan los 35 con buen cuidado.",
