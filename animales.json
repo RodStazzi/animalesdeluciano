@@ -1,5 +1,29 @@
 {
   "animales": [
+{
+  "name": "Cabra",
+  "imagen": "Cabra.gif",
+  "sonido": "Cabrasonido.mp3",
+  "edad": 18,
+  "comentarioEdad": "La cabra suele vivir entre 15 y 18 años, aunque algunas en buenas condiciones de salud pueden llegar a vivir hasta 20 años.",
+  "comentario": "Las cabras son animales domésticos versátiles que se adaptan a diversos climas y terrenos. Son conocidas por su habilidad para escalar y por su carácter curioso. También son valiosas para la producción de leche y otros productos."
+},
+{
+  "name": "Burro",
+  "imagen": "Burro.jpg",
+  "sonido": "Burrosonido.mp3",
+  "edad": 40,
+  "comentarioEdad": "El burro puede vivir hasta 40 años en buenas condiciones de cuidado, aunque en algunos casos pueden superar esa edad.",
+  "comentario": "Los burros son animales resistentes y pacientes, empleados tradicionalmente en trabajos de carga y agricultura. Su carácter tranquilo y su habilidad para adaptarse a terrenos difíciles los hacen valiosos en zonas rurales."
+},
+{
+  "name": "Vaca",
+  "imagen": "Vaca.gif",
+  "sonido": "Vacasonido.mp3",
+  "edad": 20,
+  "comentarioEdad": "La vaca puede vivir hasta 20 años, aunque en sistemas de producción su vida suele ser más corta. En condiciones óptimas, algunas vacas pueden alcanzar los 25 años.",
+  "comentario": "Las vacas son animales herbívoros que desempeñan un papel importante en la producción de leche y carne. Son animales sociables y tranquilos, y suelen vivir en manadas. Tienen una gran importancia en la agricultura y ganadería a nivel mundial."
+},
     {
   "name": "Foca",
   "imagen": "Foca.gif",
