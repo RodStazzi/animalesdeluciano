@@ -80,7 +80,7 @@ class Foca extends Animal {
     super(nombre, edad, img, comentarios, sonido)
   }
 
-  Lobosonido(){
+  Focasonido(){
     console.log(this.getSonido());
     animalAudio.src = `./assets/sounds/${this.getSonido()}`;
     animalAudio.play();
