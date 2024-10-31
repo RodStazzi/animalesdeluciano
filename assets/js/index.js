@@ -1,5 +1,5 @@
 import Animales from "./Consulta.js";
-import { Leon, Lobo, Oso, Serpiente, Aguila, Caballo, Foca } from "./clases/Especie.js"
+import { Leon, Lobo, Oso, Serpiente, Aguila, Caballo, Foca, Cabra, Vaca, Burro } from "./clases/Especie.js"
 
 // Función para generar el carrusel dinámicamente
 function generarCarrusel(datos) {
@@ -58,7 +58,10 @@ window.llamarAnimal = (async (a) => {
     'Aguila': Aguila,
     'Lobo': Lobo,
     'Foca': Foca,
-    'Caballo': Caballo
+    'Caballo': Caballo,
+    'Cabra': Cabra, 
+    'Vaca': Vaca, 
+    'Burro': Burro
   };
   
   // Usar el mapa para obtener el constructor correcto
