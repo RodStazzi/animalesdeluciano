@@ -74,4 +74,17 @@ class Caballo extends Animal {
     animalAudio.play();
   }
 }
-export {Leon, Lobo, Oso, Serpiente, Aguila, Caballo};
+
+class Foca extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido){
+    super(nombre, edad, img, comentarios, sonido)
+  }
+
+  Lobosonido(){
+    console.log(this.getSonido());
+    animalAudio.src = `./assets/sounds/${this.getSonido()}`;
+    animalAudio.play();
+  }
+}
+
+export {Leon, Lobo, Oso, Serpiente, Aguila, Caballo, Foca};
