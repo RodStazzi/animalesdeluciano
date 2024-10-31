@@ -87,4 +87,40 @@ class Foca extends Animal {
   }
 }
 
-export {Leon, Lobo, Oso, Serpiente, Aguila, Caballo, Foca};
+class Vaca extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido){
+    super(nombre, edad, img, comentarios, sonido)
+  }
+
+  Vacasonido(){
+    console.log(this.getSonido());
+    animalAudio.src = `./assets/sounds/${this.getSonido()}`;
+    animalAudio.play();
+  }
+}
+
+class Cabra extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido){
+    super(nombre, edad, img, comentarios, sonido)
+  }
+
+  Cabrasonido(){
+    console.log(this.getSonido());
+    animalAudio.src = `./assets/sounds/${this.getSonido()}`;
+    animalAudio.play();
+  }
+}
+
+class Burro extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido){
+    super(nombre, edad, img, comentarios, sonido)
+  }
+
+  Burrosonido(){
+    console.log(this.getSonido());
+    animalAudio.src = `./assets/sounds/${this.getSonido()}`;
+    animalAudio.play();
+  }
+}
+
+export {Leon, Lobo, Oso, Serpiente, Aguila, Caballo, Foca, Cabra, Vaca, Burro};
