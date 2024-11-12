@@ -123,4 +123,63 @@ class Burro extends Animal {
   }
 }
 
-export {Leon, Lobo, Oso, Serpiente, Aguila, Caballo, Foca, Cabra, Vaca, Burro};
+class Chimpance extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido){
+    super(nombre, edad, img, comentarios, sonido)
+  }
+
+  Chimpancesonido(){
+    console.log(this.getSonido());
+    animalAudio.src = `./assets/sounds/${this.getSonido()}`;
+    animalAudio.play();
+  }
+}
+
+class Cerdo extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido){
+    super(nombre, edad, img, comentarios, sonido)
+  }
+
+  Cerdosonido(){
+    console.log(this.getSonido());
+    animalAudio.src = `./assets/sounds/${this.getSonido()}`;
+    animalAudio.play();
+  }
+}
+
+class Tigre extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido){
+    super(nombre, edad, img, comentarios, sonido)
+  }
+
+  Tigresonido(){
+    console.log(this.getSonido());
+    animalAudio.src = `./assets/sounds/${this.getSonido()}`;
+    animalAudio.play();
+  }
+}
+
+class Gallo extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido){
+    super(nombre, edad, img, comentarios, sonido)
+  }
+
+  Gallosonido(){
+    console.log(this.getSonido());
+    animalAudio.src = `./assets/sounds/${this.getSonido()}`;
+    animalAudio.play();
+  }
+}
+
+class Rana extends Animal {
+  constructor(nombre, edad, img, comentarios, sonido){
+    super(nombre, edad, img, comentarios, sonido)
+  }
+
+  Ranasonido(){
+    console.log(this.getSonido());
+    animalAudio.src = `./assets/sounds/${this.getSonido()}`;
+    animalAudio.play();
+  }
+}
+export {Leon, Lobo, Oso, Serpiente, Aguila, Caballo, Foca, Cabra, Vaca, Burro, Chimpance, Cerdo, Tigre, Gallo, Rana};
