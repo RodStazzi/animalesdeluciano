@@ -61,7 +61,12 @@ window.llamarAnimal = (async (a) => {
     'Caballo': Caballo,
     'Cabra': Cabra, 
     'Vaca': Vaca, 
-    'Burro': Burro
+    'Burro': Burro,
+    'Chimpance': Chimpance, 
+    'Cerdo': Cerdo, 
+    'Tigre': Tigre, 
+    'Gallo': Gallo, 
+    'Rana': Rana
   };
   
   // Usar el mapa para obtener el constructor correcto
