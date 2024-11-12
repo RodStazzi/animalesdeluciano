@@ -1,6 +1,46 @@
 {
   "animales": [
 {
+  "name": "Gallo",
+  "imagen": "Gallo.gif",
+  "sonido": "Gallosonido.mp3",
+  "edad": 15,
+  "comentarioEdad": "Los gallos suelen vivir de 5 a 10 años, pero en condiciones óptimas pueden alcanzar hasta 15 años.",
+  "comentario": "El gallo es conocido por su canto característico y su rol protector dentro del gallinero. Es un animal social que establece jerarquías en su grupo y tiene un comportamiento territorial."
+},
+{
+  "name": "Tigre",
+  "imagen": "Tigre.gif",
+  "sonido": "Tigresonido.mp3",
+  "edad": 26,
+  "comentarioEdad": "Los tigres en estado salvaje suelen vivir hasta 15 años, mientras que en cautiverio pueden llegar a los 20 o incluso 26 años.",
+  "comentario": "El tigre es uno de los felinos más grandes y poderosos del mundo. Su pelaje rayado le permite camuflarse en la naturaleza, y es un cazador solitario y territorial. Lamentablemente, se encuentra en peligro de extinción debido a la pérdida de su hábitat y la caza furtiva."
+},
+{
+  "name": "Chimpancé",
+  "imagen": "Chimpance.gif",
+  "sonido": "Chimpancesonido.mp3",
+  "edad": 50,
+  "comentarioEdad": "En estado salvaje, los chimpancés pueden vivir hasta 33 años, pero en cautiverio pueden alcanzar los 50 años o más.",
+  "comentario": "El chimpancé es un primate altamente inteligente y social, que utiliza herramientas y muestra un comportamiento complejo y comunicación avanzada. Comparte un alto porcentaje de similitud genética con los seres humanos, lo que los hace especialmente importantes para estudios científicos."
+},
+{
+  "name": "Cerdo",
+  "imagen": "Cerdo.gif",
+  "sonido": "Cerdosonido.mp3",
+  "edad": 20,
+  "comentarioEdad": "Los cerdos suelen vivir entre 10 y 15 años, aunque en condiciones óptimas pueden llegar a vivir hasta 20 años.",
+  "comentario": "El cerdo es un animal doméstico conocido por su inteligencia y habilidades de comunicación. Son animales sociales que prefieren vivir en grupos y tienen una dieta omnívora. Los cerdos son ampliamente criados en todo el mundo para la producción de carne."
+},
+{
+  "name": "Rana",
+  "imagen": "Rana.gif",
+  "sonido": "Ranasonido.mp3",
+  "edad": 12,
+  "comentarioEdad": "La rana puede vivir de 6 a 8 años en la naturaleza, pero en cautiverio algunas especies pueden llegar a los 12 años.",
+  "comentario": "Las ranas son anfibios que habitan tanto en agua dulce como en tierra, y son conocidas por su piel húmeda y su capacidad de salto. Son importantes en los ecosistemas como controladores de insectos y como presas para otros animales."
+},
+{
   "name": "Cabra",
   "imagen": "Cabra.gif",
   "sonido": "Cabrasonido.mp3",
