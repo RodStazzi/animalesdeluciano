@@ -1,5 +1,5 @@
 import Animales from "./Consulta.js";
-import { Leon, Lobo, Oso, Serpiente, Aguila, Caballo, Foca, Cabra, Vaca, Burro } from "./clases/Especie.js"
+import { Leon, Lobo, Oso, Serpiente, Aguila, Caballo, Foca, Cabra, Vaca, Burro, Chimpance, Cerdo, Tigre, Gallo, Rana } from "./clases/Especie.js"
 
 // Función para generar el carrusel dinámicamente
 function generarCarrusel(datos) {
