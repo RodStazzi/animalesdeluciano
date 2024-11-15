@@ -69,4 +69,41 @@
 
 
 
+.custom-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background: #ffc107;
+  border-radius: 50%;
+  border: none;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  z-index: 5;
+}
 
+.custom-carousel-btn:hover {
+  opacity: 1;
+}
+
+/* Posicionamiento de los botones fuera del carrusel */
+.carousel-control-prev.custom-carousel-btn {
+  left: -50px;
+}
+
+.carousel-control-next.custom-carousel-btn {
+  right: -50px;
+}
+
+/* Estilo para los íconos dentro de los botones */
+.custom-carousel-btn i {
+  color: white;
+  font-size: 20px;
+}
+
+/* Asegurarse que el contenedor del carrusel tenga margen para los botones */
+#carouselExampleIndicators {
+  margin: 0 60px;
+}
